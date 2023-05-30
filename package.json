@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "axios": "^1.4.0",
+    "lite-server": "^2.6.1"
+  },
+  "name": "league-of-legends-favorites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

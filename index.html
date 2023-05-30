@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League of Legends - Favorites</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/league of legends logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app">
+        <header>
+            <h1><img class ="logo" src="./assets/league of legends logo.png"> League of Legends</h1>
+    
+            <div class="searchbar">
+                <label for="favoritar" class="sr-only">Digite o nome do campeão que deseja favoritar</label>
+                <input id="searchchamp" type="text" placeholder="Digite o nome do campeão que deseja favoritar">
+                <button id="botaoFav">FAVORITAR</button>
+            </div>
+        </header>
+        <div class="table-wrapper">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Campeão</th>
+                        <th>Título</th>
+                        <th>Tags</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td class="champ">
+                            
+                            <img class="champimg" src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg" alt="Splashart do campeão">
+                           
+                            
+                            <p>Garen</p>
+                        </td>
+    
+                      <td class="titulo">The Might of Demacia</td>
+                      <td class="tags">Fighter, Tank</td>
+                      <td class="remover">Remover</td>
+                    </tr>
+    
+    
+                    <tr>
+                        <td class="champ">
+                            
+                                <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg" alt="Splashart do campeão">
+                                <p>Master</p>
+                                                        
+                        </td>
+    
+                      <td class="titulo">The Might of Demacia</td>
+                      <td class="tags">Jungle, asssassin</td>
+                      <td class="remover">Remover</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/scripts/main.js" type="module"></script>
+</body>
+</html>
