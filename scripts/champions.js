@@ -33,11 +33,7 @@ export class Champions {
                  newChampName[i] = newChampName[i].charAt(0).toUpperCase() + newChampName[i].slice(1) 
              }
 
-            // console.log(newChampName2)
-
-            // function capitalizeFirstLetter(string) {
-            //     return string.charAt(0).toUpperCase() + string.slice(1);
-            // }
+        
             
             const finalName = newChampName.join('')
             
